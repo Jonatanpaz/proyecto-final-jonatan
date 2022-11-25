@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../css/estilo.css">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f0002caabc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./../css/estilo.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,63 +30,70 @@
                     <a class="nav-link active" href="./contacto.html">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./servicios.html">Servicios</a>
+                    <a class="nav-link active" href="./calzados.html">Calzados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="./productos.html">Productos</a>
+                    <a class="nav-link active" href="./remeras.html">Remeras</a>
                   </li>
                   
               </div>
             </div>
           </nav>
     </header>
-    <section>
-      <div class="container">
-        <h2>Contacto</h2>
-        
+    <main class="mainContacto">
+      <section class="contacto">
+        <div class="formulario">
+          <form action="">
+            <h2>Contactate con nosotros</h2>
+            <label for="nombre"></label>
+            <input type="text" placeholder="Nombre">
+
+            <label for=""></label>
+            <input type="email" name="" id="" placeholder="Email">
+            
+            <label for=""></label>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+            <input class="submit" type="submit" value="Enviar">
+          </form>
+        </div>
+        <div class="datosContacto">
+          <div>
+            <h2>Datos de contacto</h2>
+            <div>
+              <h3><i class="fa-brands fa-whatsapp"></i> 11-4898-9898</h3>
+              <h3><i class="fa-solid fa-location-arrow"></i> Av. 9 de Julio 4848</h3>
+              <h3><i class="fa-light fa-at"></i> info@gmail.com</h3> 
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    <!-- <section class="formulario">
+        <h1>Contacto</h1>
+
         <form action="">
-          <div>
             <label for="Nombre">Nombre</label>
-            <input type="text" name="nombre">
-          </div>
-          <div>
+            <input class="input"  type="text" name="nombre">
             <label for="Apellido">Apellido</label>
-            <input type="text" name="Apellido">
-          </div>
-          <div>
+            <input class="input" type="text" name="Apellido">
             <label for="Celular">Telefono</label>
-            <input type="Celular">
-          </div>
-          <div>
+            <input class="input" type="Celular">
             <label for="email">Correo Electronico</label>
-            <input type="email">
+            <input class="input" type="email">
+            <textarea class="input"name="" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="Enviar"> 
+            <input type="button" value="Restablecer"> 
           </div>
-          <div>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar">  
-          </div>
-          <br><br>
-          <div>
-            <p>Comunicate con el eShop al 4717-4404 de lunes a viernes de 8:00hs a 17:00hs.</p>
-            <p>Escribinos por whatsapp al 1158481771 de lunes a sabado de 8:00hs a 22:00hs.</p>
-          </div>
-
-
         </form>
       </div>
-    </section>
-    
-
-    
-
-
-
-
-
+      <p>Comunicate con el eShop al 4717-4404 de lunes a viernes de 8:00hs a 17:00hs.</p>
+      <p>Escribinos por whatsapp al 1158481771 de lunes a sabado de 8:00hs a 22:00hs.</p>
+    </section> -->
+  </main>
 
     <footer>Creado por Jonatan.- <span>Derechos reservados</span></footer>
-
-
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
